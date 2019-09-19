@@ -9,6 +9,17 @@ h1{
     margin: 30px 200px 30px;
 }
 
+h2{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 200px 40px;
+}
+
 .home_img_div{
 
     margin: 20px 300px 20px;
@@ -17,6 +28,37 @@ h1{
 .home_img{
     border-radius:5px;
     width:100%;
+}
+
+.add_img{
+    border-radius:5px;
+    width:100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    margin: 0px 200px 0px 310px;
+    display: flex;
+}
+
+aside{
+    flex:2
+}
+
+content{
+    flex:4
 }
 
 @media  screen and (max-width: 1300px){
@@ -33,12 +75,23 @@ h1{
         font-size:40px;
     }
     
+    h2{
+        margin: 20px 70px 20px;
+        font-size:45px;
+    }
     .home_img_div{
         margin: 20px 100px 20px;
     }
 }
 
 @media  screen and (max-width: 768px){
+    h1{
+        margin: 20px 20px 20px;
+    }
+    h2{
+        margin: 20px 20px 20px;
+        font-size:30px;
+    }
     .home_img_div{
         margin: 20px 50px 20px;
     }
