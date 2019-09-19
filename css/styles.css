@@ -1,9 +1,15 @@
-img.explorer_logo {
+.explorer_logo {
    content:url(../images/IE_logo.png);
    width:20px;
    position: relative;
    top: -2px;
    opacity: 0.8;
+}
+
+p {
+     font-family: 'pt-serif', Georgia, serif;
+     line-height: 1.7;
+     font-size: 20px;
 }
 
 h1{
@@ -25,7 +31,14 @@ h2{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 40px 200px 40px;
+    margin: 40px 200px 60px;
+}
+
+h4{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 40px 0 20px;
 }
 
 .home_img_div{
@@ -76,6 +89,40 @@ content{
     flex:4
 }
 
+.text_content{
+    padding-right: 100px;
+}
+
+.featured_tab{
+    
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.featured_links{
+    line-height: 1.2;
+    border-left: 2px solid #CFD8DC;
+    padding: 5px 20px;
+    position: absolute;
+}
+
+.list_of_links{
+    padding-right: 30%;
+}
+
+.listing{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 800;
+    font-size: default;
+    line-height: 1;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 @media  screen and (max-width: 1300px){
     .home_img_div{
         margin: 20px 200px 20px;
@@ -109,6 +156,9 @@ content{
     }
     content{
         display: block;
+    }
+    .text_content{
+        padding-right: 0px;
     }
 }
 
