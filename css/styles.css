@@ -1,25 +1,178 @@
 
-body {
-    background-image: url("/Creative-Lab-1/images/blue.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.explorer_logo {
+   content:url(../images/IE_logo.png);
+   width:20px;
+   position: relative;
+   top: -2px;
+   opacity: 0.8;
 }
-h1 {
+
+p {
+     font-family: 'pt-serif', Georgia, serif;
+     line-height: 1.7;
+     font-size: 20px;
+}
+
+h1{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    font-family: "garamond", serif;
-    color:white;
-    padding-bottom: 50px;
+    margin: 30px 200px 30px;
 }
 
-.column {
-  float: right;
+h2{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 200px 60px;
 }
 
-.left {
-  width: 50%;
-  margin-left: 50px;
+h4{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin: 40px 0 20px;
 }
 
-.right {
-  width: 50%;
+.home_img_div{
+
+    margin: 20px 300px 20px;
+}
+
+.E_img_div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_img{
+    border-radius:5px;
+    width:100%;
+}
+
+.add_img{
+    border-radius:5px;
+    height:auto;
+    width:340px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    margin: 0px 200px 0px 310px;
+    display: flex;
+}
+
+aside{
+    flex:2
+}
+
+content{
+    flex:4
+}
+
+.text_content{
+    padding-right: 100px;
+}
+
+.featured_tab{
+    
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+.featured_links{
+    line-height: 1.2;
+    border-left: 2px solid #CFD8DC;
+    padding: 5px 20px;
+    position: absolute;
+}
+
+.list_of_links{
+    padding-right: 30%;
+}
+
+.listing{
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 800;
+    font-size: default;
+    line-height: 1;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media  screen and (max-width: 1300px){
+    .home_img_div{
+        margin: 20px 200px 20px;
+    }
+    section {
+        margin: 0px 100px 0px 170px;
+    }
+}
+
+
+
+@media  screen and (max-width: 992px){
+    h1{
+        margin: 20px 70px 20px;
+        font-size:40px;
+    }
+    
+    h2{
+        margin: 20px 70px 20px;
+        font-size:45px;
+    }
+    .home_img_div{
+        margin: 20px 100px 20px;
+    }
+    section {
+        margin: 0px 100px 0px 100px;
+        display: block;
+    }
+    aside{
+        display: block;
+    }
+    content{
+        display: block;
+    }
+    .text_content{
+        padding-right: 0px;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    h1{
+        margin: 20px 20px 20px;
+    }
+    h2{
+        margin: 20px 20px 20px;
+        font-size:30px;
+    }
+    .home_img_div{
+        margin: 20px 50px 20px;
+    }
+
 }
